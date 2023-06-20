@@ -74,6 +74,10 @@ $(function () {
     $('#agree').click(function(){
       inputCheck();
     });
+    $('#prefecture').blur(function(){
+      inputCheck();
+    });
+
 
     //  お問合せフォームの入力チェック
     function inputCheck(){
